@@ -4,3 +4,4 @@ The server code is the exact same, but the client uses the WIN32 API to draw the
 Contains a few issues:
 - Limiting the chat window to 5000 characters will cause issues
 - generally messy code
+- Use of WIN32 instead of any other GUI API for C++
