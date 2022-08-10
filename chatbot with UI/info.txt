@@ -1,0 +1,6 @@
+This has the same functionality as the regular chat bot, just with a GUI to get around issues with overrwriting text in the command line.
+The server code is the exact same, but the client uses the WIN32 API to draw the GUI and handle inputs. The networking components are the same.
+
+Contains a few issues:
+- Limiting the chat window to 5000 characters will cause issues
+- generally messy code
